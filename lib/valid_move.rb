@@ -3,12 +3,9 @@ def valid_move?(board, index)
 
 hello = nil
   if taken = false
-
-  else if condition
-
+  elsif index.between?(0, 8)
+    hello = false
   else
-
-  end
     hello = true
   end
 hello
@@ -24,5 +21,3 @@ def position_taken?(board, index)
      taken = true
    end
   taken
-
-end
