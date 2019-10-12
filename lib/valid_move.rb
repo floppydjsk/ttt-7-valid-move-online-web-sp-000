@@ -3,9 +3,9 @@ def valid_move?(board, index)
 
 hello = nil
   if (index.between?(0, 8) && taken = true)
-    hello = false
-  else
     hello = true
+  else
+    hello = false
   end
 hello
 end
